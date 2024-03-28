@@ -343,32 +343,6 @@ const BlockOptionsDropdownList = ({
     setShowBlockOptionsDropDown(false);
   };
 
-  //   const formatLargeHeading = () => {
-  //     if (blockType !== "h1") {
-  //       editor.update(() => {
-  //         const selection = $getSelection();
-
-  //         if ($isRangeSelection(selection)) {
-  //           $setBlocksType(selection, () => $createHeadingNode("h1"));
-  //         }
-  //       });
-  //     }
-  //     setShowBlockOptionsDropDown(false);
-  //   };
-
-  //   const formatSmallHeading = () => {
-  //     if (blockType !== "h2") {
-  //       editor.update(() => {
-  //         const selection = $getSelection();
-
-  //         if ($isRangeSelection(selection)) {
-  //           $setBlocksType(selection, () => $createHeadingNode("h2"));
-  //         }
-  //       });
-  //     }
-  //     setShowBlockOptionsDropDown(false);
-  //   };
-
   const formatBulletList = () => {
     if (blockType !== "ul") {
       editor.dispatchCommand(INSERT_UNORDERED_LIST_COMMAND, undefined);
