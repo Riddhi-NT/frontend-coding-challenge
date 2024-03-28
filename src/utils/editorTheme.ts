@@ -1,3 +1,16 @@
+/**
+ * editorTheme
+ *
+ * The theme object defining styles for the Lexical editor components.
+ *
+ * @type {Object}
+ * @property {string} root - Styles for the root container of the editor.
+ * @property {string} link - Styles for links within the editor.
+ * @property {Object} text - Styles for text elements within the editor, including code, bold, underline, italic, strikethrough, and combined underline-strikethrough.
+ * @property {Object} list - Styles for list elements within the editor, including nested lists, ordered lists (ol), unordered lists (ul), and list items.
+ * @property {string} code - Styles for code blocks within the editor.
+ * @property {Object} codeHighlight - Styles for syntax highlighting within code blocks, including various token types such as keywords, strings, variables, etc.
+ */
 export const editorTheme = {
   root: "p-4 border-slate-500 border-2 rounded min-h-[200px] focus:outline-none focus-visible:border-black h-[70vh] overflow-auto",
   link: "cursor-pointer",
