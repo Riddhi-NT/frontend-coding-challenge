@@ -39,7 +39,7 @@ const FileUploadPlugin = ({ setContent }: FileUploadPluginProps) => {
         id="file-upload"
         type="file"
         className="hidden my-4"
-        accept=".md"
+        accept=".md,.MARKDOWN"
         onChange={handleFileUpload}
       />
     </div>

@@ -27,7 +27,7 @@ const MarkDownEditor = ({ setMarkdownContent }: MarkDownEditorProps) => {
   };
 
   return (
-    <div className="w-1/2">
+    <div className="w-full lg:w-1/2">
       <HeaderTitle title="Markdown Editor" />
       <div className="relative prose prose-slate prose-p:my-0 prose-headings:mb-4 prose-headings:mt-2 w-full">
         <LexicalComposer initialConfig={initialConfig}>

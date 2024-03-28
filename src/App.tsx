@@ -7,7 +7,7 @@ function App() {
   const [markdownContent, setMarkdownContent] = useState<string>("");
 
   return (
-    <div className="m-8 flex">
+    <div className="m-8 flex flex-col lg:flex-row gap-2">
       <MarkDownEditor setMarkdownContent={setMarkdownContent} />
       <MarkdownPreview markdownText={markdownContent} />
     </div>
